@@ -1,0 +1,183 @@
+.scaleLineContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.scaleLineWrapper {
+    position: relative;
+    background-color: aquamarine;
+    width: 4px;
+    height: 400px;
+}
+
+.scaleLine {
+    background-color: black;
+    width: 1px;
+    height: 100%;
+}
+
+.pointingLine {
+    background-color: black;
+    width: 1%;
+    height: 100%;
+}
+
+.scaleMarkContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    z-index: 10;
+    height: max-content;
+    width: max-content;
+}
+
+.scaleMark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: max-content;
+    width: max-content;
+}
+
+.markName {
+    height: 100%;
+    border: 0px;
+    background-color: transparent;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+.percentageWrapper {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+}
+
+.percentageWrapper > input {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 12px;
+    height: 100%;
+    border: none;
+    text-align: right;
+}
+
+.scaleMarkAdderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: palegoldenrod;
+}
+
+.inputContainer {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputContainer > input {
+    width: 60px;
+    height: 20px;
+    border: none;
+}
+
+.addButton {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addButton > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+  
+  .timerContainer {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timerValueWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+  }
+  
+  .timerButtonsWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+  }
+  
+  .timerButtonsWrapper > button {
+    width: 35px;
+    height: 20px;
+    height: 15x;
+    border-radius: 20%;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .redScreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+  }
+
+  .dataTable {
+    width: 300px;
+    min-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .dataTable > span {
+    border: 1px solid black;
+    width:100%;
+    height: 20px;
+  }
